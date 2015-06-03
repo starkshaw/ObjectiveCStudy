@@ -1,5 +1,5 @@
 # Zhenbang Xiao
-# Hello World
+# Exchange Value of Variables
 
 include $(GNUSTEP_MAKEFILES)/common.make
 

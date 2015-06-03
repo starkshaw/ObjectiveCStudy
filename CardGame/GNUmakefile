@@ -1,5 +1,5 @@
 # Zhenbang Xiao
-# Hello World
+# Card Game from Stanford University Public Module CS192p
 
 include $(GNUSTEP_MAKEFILES)/common.make
 
