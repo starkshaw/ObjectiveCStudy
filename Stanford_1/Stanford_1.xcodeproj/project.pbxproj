@@ -15,6 +15,8 @@
 		1D6EC27B1B482152006F3FC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6EC2791B482152006F3FC1 /* LaunchScreen.xib */; };
 		1D6EC2871B482152006F3FC1 /* Stanford_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC2861B482152006F3FC1 /* Stanford_1Tests.m */; };
 		1D6EC2911B482173006F3FC1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC2901B482173006F3FC1 /* Card.m */; };
+		1D8026521B52B9960077AB60 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8026511B52B9960077AB60 /* Deck.m */; };
+		1D8026561B52C1C70077AB60 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8026551B52C1C70077AB60 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,10 @@
 		1D6EC2861B482152006F3FC1 /* Stanford_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stanford_1Tests.m; sourceTree = "<group>"; };
 		1D6EC2901B482173006F3FC1 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		1D6EC2921B4821B0006F3FC1 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1D8026511B52B9960077AB60 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		1D8026531B52B9A20077AB60 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1D8026541B52C1A40077AB60 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		1D8026551B52C1C70077AB60 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,10 @@
 				1D6EC26A1B482152006F3FC1 /* Supporting Files */,
 				1D6EC2901B482173006F3FC1 /* Card.m */,
 				1D6EC2921B4821B0006F3FC1 /* Card.h */,
+				1D8026511B52B9960077AB60 /* Deck.m */,
+				1D8026541B52C1A40077AB60 /* PlayingCard.h */,
+				1D8026551B52C1C70077AB60 /* PlayingCard.m */,
+				1D8026531B52B9A20077AB60 /* Deck.h */,
 			);
 			path = Stanford_1;
 			sourceTree = "<group>";
@@ -224,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8026561B52C1C70077AB60 /* PlayingCard.m in Sources */,
+				1D8026521B52B9960077AB60 /* Deck.m in Sources */,
 				1D6EC2731B482152006F3FC1 /* ViewController.m in Sources */,
 				1D6EC2701B482152006F3FC1 /* AppDelegate.m in Sources */,
 				1D6EC26D1B482152006F3FC1 /* main.m in Sources */,
@@ -424,6 +436,7 @@
 				1D6EC28C1B482152006F3FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6EC28D1B482152006F3FC1 /* Build configuration list for PBXNativeTarget "Stanford_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +445,7 @@
 				1D6EC28F1B482152006F3FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
