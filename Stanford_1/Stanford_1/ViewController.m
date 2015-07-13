@@ -14,6 +14,19 @@
 
 @implementation ViewController
 
+- (IBAction)touchCardButton:(UIButton *)sender {
+    if ([sender.currentTitle length]) {
+        UIImage *cardImage = [UIImage imageNamed:@"backCard"];
+        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+        [sender setTitle:@"" forState:UIControlStateNormal];
+    } else {
+        UIImage *cardImage = [UIImage imageNamed:@"blankCard"];
+        [sender setBackgroundImage:cardImage forState:UIControlStateNormal];
+        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
+
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

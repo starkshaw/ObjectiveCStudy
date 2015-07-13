@@ -12,10 +12,10 @@
 		1D6EC2701B482152006F3FC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC26F1B482152006F3FC1 /* AppDelegate.m */; };
 		1D6EC2731B482152006F3FC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC2721B482152006F3FC1 /* ViewController.m */; };
 		1D6EC2761B482152006F3FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6EC2741B482152006F3FC1 /* Main.storyboard */; };
-		1D6EC2781B482152006F3FC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6EC2771B482152006F3FC1 /* Images.xcassets */; };
 		1D6EC27B1B482152006F3FC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6EC2791B482152006F3FC1 /* LaunchScreen.xib */; };
 		1D6EC2871B482152006F3FC1 /* Stanford_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC2861B482152006F3FC1 /* Stanford_1Tests.m */; };
 		1D6EC2911B482173006F3FC1 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC2901B482173006F3FC1 /* Card.m */; };
+		1D75E4BE1B5409E100453C87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D75E4BD1B5409E100453C87 /* Images.xcassets */; };
 		1D8026521B52B9960077AB60 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8026511B52B9960077AB60 /* Deck.m */; };
 		1D8026561B52C1C70077AB60 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8026551B52C1C70077AB60 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
@@ -41,13 +41,13 @@
 		1D6EC2711B482152006F3FC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1D6EC2721B482152006F3FC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1D6EC2751B482152006F3FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1D6EC2771B482152006F3FC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D6EC27A1B482152006F3FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1D6EC2801B482152006F3FC1 /* Stanford_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stanford_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6EC2851B482152006F3FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6EC2861B482152006F3FC1 /* Stanford_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stanford_1Tests.m; sourceTree = "<group>"; };
 		1D6EC2901B482173006F3FC1 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		1D6EC2921B4821B0006F3FC1 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1D75E4BD1B5409E100453C87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Stanford_1/Images.xcassets; sourceTree = "<group>"; };
 		1D8026511B52B9960077AB60 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		1D8026531B52B9A20077AB60 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		1D8026541B52C1A40077AB60 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
@@ -75,6 +75,7 @@
 		1D6EC25E1B482152006F3FC1 = {
 			isa = PBXGroup;
 			children = (
+				1D75E4BD1B5409E100453C87 /* Images.xcassets */,
 				1D6EC2691B482152006F3FC1 /* Stanford_1 */,
 				1D6EC2831B482152006F3FC1 /* Stanford_1Tests */,
 				1D6EC2681B482152006F3FC1 /* Products */,
@@ -98,7 +99,6 @@
 				1D6EC2711B482152006F3FC1 /* ViewController.h */,
 				1D6EC2721B482152006F3FC1 /* ViewController.m */,
 				1D6EC2741B482152006F3FC1 /* Main.storyboard */,
-				1D6EC2771B482152006F3FC1 /* Images.xcassets */,
 				1D6EC2791B482152006F3FC1 /* LaunchScreen.xib */,
 				1D6EC26A1B482152006F3FC1 /* Supporting Files */,
 				1D6EC2901B482173006F3FC1 /* Card.m */,
@@ -220,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6EC2761B482152006F3FC1 /* Main.storyboard in Resources */,
+				1D75E4BE1B5409E100453C87 /* Images.xcassets in Resources */,
 				1D6EC27B1B482152006F3FC1 /* LaunchScreen.xib in Resources */,
-				1D6EC2781B482152006F3FC1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +376,7 @@
 				INFOPLIST_FILE = Stanford_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,6 +387,7 @@
 				INFOPLIST_FILE = Stanford_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
