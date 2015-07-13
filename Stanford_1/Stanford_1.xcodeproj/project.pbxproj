@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4C53151B537CC700F9F27A /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C53141B537CC700F9F27A /* PlayingCardDeck.m */; };
 		1D6EC26D1B482152006F3FC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC26C1B482152006F3FC1 /* main.m */; };
 		1D6EC2701B482152006F3FC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC26F1B482152006F3FC1 /* AppDelegate.m */; };
 		1D6EC2731B482152006F3FC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6EC2721B482152006F3FC1 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D4C53141B537CC700F9F27A /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		1D4C53161B537CD300F9F27A /* PlayingCardDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		1D6EC2671B482152006F3FC1 /* Stanford_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stanford_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6EC26B1B482152006F3FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D6EC26C1B482152006F3FC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				1D8026511B52B9960077AB60 /* Deck.m */,
 				1D8026541B52C1A40077AB60 /* PlayingCard.h */,
 				1D8026551B52C1C70077AB60 /* PlayingCard.m */,
+				1D4C53141B537CC700F9F27A /* PlayingCardDeck.m */,
+				1D4C53161B537CD300F9F27A /* PlayingCardDeck.h */,
 				1D8026531B52B9A20077AB60 /* Deck.h */,
 			);
 			path = Stanford_1;
@@ -238,6 +243,7 @@
 				1D8026521B52B9960077AB60 /* Deck.m in Sources */,
 				1D6EC2731B482152006F3FC1 /* ViewController.m in Sources */,
 				1D6EC2701B482152006F3FC1 /* AppDelegate.m in Sources */,
+				1D4C53151B537CC700F9F27A /* PlayingCardDeck.m in Sources */,
 				1D6EC26D1B482152006F3FC1 /* main.m in Sources */,
 				1D6EC2911B482173006F3FC1 /* Card.m in Sources */,
 			);
