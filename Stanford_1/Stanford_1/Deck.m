@@ -19,7 +19,7 @@
 - (NSMutableArray *) cards
 {
     if (!_cards) {
-        _cards = [[NSMutableArray alloc] init];     // Lazy Initialization
+        _cards = [[NSMutableArray alloc] init];     // Lazy Instantiation
     }
     return _cards;
 }
@@ -48,9 +48,6 @@
     }
     return randomCard;
 }
-
-
-
 
 @end
 

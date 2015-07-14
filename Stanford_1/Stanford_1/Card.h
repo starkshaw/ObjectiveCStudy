@@ -5,7 +5,8 @@
 //  Created by Zhenbang Xiao on 04/07/2015.
 //  Copyright (c) 2015 Zhenbang Xiao. All rights reserved.
 //
-#import <Foundation/NSObject.h>
+
+#import <Foundation/Foundation.h>
 
 @interface Card : NSObject
 

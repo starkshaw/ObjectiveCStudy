@@ -104,11 +104,11 @@
 				1D6EC2901B482173006F3FC1 /* Card.m */,
 				1D6EC2921B4821B0006F3FC1 /* Card.h */,
 				1D8026511B52B9960077AB60 /* Deck.m */,
+				1D8026531B52B9A20077AB60 /* Deck.h */,
 				1D8026541B52C1A40077AB60 /* PlayingCard.h */,
 				1D8026551B52C1C70077AB60 /* PlayingCard.m */,
 				1D4C53141B537CC700F9F27A /* PlayingCardDeck.m */,
 				1D4C53161B537CD300F9F27A /* PlayingCardDeck.h */,
-				1D8026531B52B9A20077AB60 /* Deck.h */,
 			);
 			path = Stanford_1;
 			sourceTree = "<group>";
