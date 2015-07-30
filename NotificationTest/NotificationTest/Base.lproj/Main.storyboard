@@ -23,7 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4Q-in-lnC">
-                                <rect key="frame" x="219" y="284" width="162" height="32"/>
+                                <rect key="frame" x="152" y="265" width="297" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="Cqy-aP-FCw"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Send notification test"/>
                                 <connections>
@@ -33,8 +36,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="M4Q-in-lnC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ol0-HA-4QT"/>
-                            <constraint firstItem="M4Q-in-lnC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nGp-aP-1f0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M4Q-in-lnC" secondAttribute="bottom" constant="216" id="AXf-yN-H1W"/>
+                            <constraint firstItem="M4Q-in-lnC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="245" id="C9k-6Y-SdG"/>
+                            <constraint firstItem="M4Q-in-lnC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cww-L5-w2R"/>
                         </constraints>
                     </view>
                 </viewController>
