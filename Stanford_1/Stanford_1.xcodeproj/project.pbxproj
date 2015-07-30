@@ -188,6 +188,7 @@
 				TargetAttributes = {
 					1D6EC2661B482152006F3FC1 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = S66R5ABXH4;
 					};
 					1D6EC27F1B482152006F3FC1 = {
 						CreatedOnToolsVersion = 6.4;
@@ -373,7 +374,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaozhenbang@gmail.com (HFUV9EMSYW)";
 				INFOPLIST_FILE = Stanford_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -384,7 +387,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaozhenbang@gmail.com (HFUV9EMSYW)";
 				INFOPLIST_FILE = Stanford_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
