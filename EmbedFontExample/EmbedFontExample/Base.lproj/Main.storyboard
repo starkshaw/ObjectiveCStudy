@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="NotoSansCJKsc-Thin.otf">
+            <string>NotoSansCJKsc-Thin</string>
+            <string>NotoSansCJKsc-Thin</string>
+            <string>NotoSansCJKsc-Thin</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="广陵三月花正开 花里逢君醉一回" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scr-JP-chy">
+                                <rect key="frame" x="163" y="48" width="274" height="21"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="uMu-SF-EAd"/>
+                                    <constraint firstAttribute="width" constant="274" id="yVW-9T-EC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cg-hY-M7c">
+                                <rect key="frame" x="249" y="488" width="103" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RJK-4M-WAv"/>
+                                </constraints>
+                                <state key="normal" title="Switch to Light"/>
+                                <connections>
+                                    <action selector="switchFont:" destination="BYZ-38-t0r" eventType="touchDown" id="nKs-sb-oyX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manners maketh man." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnY-JL-Pbx">
+                                <rect key="frame" x="120" y="77" width="360" height="28"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Jln-w9-vu7"/>
+                                    <constraint firstAttribute="width" constant="360" id="XrH-Sb-Ppn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="国" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-xP-A2u">
+                                <rect key="frame" x="135" y="125" width="331" height="277"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="6K1-bd-Ibs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="220"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="f3g-xP-A2u" firstAttribute="centerX" secondItem="ZnY-JL-Pbx" secondAttribute="centerX" id="0J7-6w-pQU"/>
+                            <constraint firstItem="f3g-xP-A2u" firstAttribute="top" secondItem="ZnY-JL-Pbx" secondAttribute="bottom" constant="20" id="GQI-wv-dfn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1cg-hY-M7c" secondAttribute="bottom" constant="82" id="IpL-j3-M5O"/>
+                            <constraint firstItem="ZnY-JL-Pbx" firstAttribute="centerX" secondItem="Scr-JP-chy" secondAttribute="centerX" id="Lua-iK-aDr"/>
+                            <constraint firstItem="ZnY-JL-Pbx" firstAttribute="top" secondItem="Scr-JP-chy" secondAttribute="bottom" constant="8" symbolic="YES" id="Mb5-Rl-Agi"/>
+                            <constraint firstItem="Scr-JP-chy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="Nfm-L4-P9r"/>
+                            <constraint firstItem="ZnY-JL-Pbx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WEp-yi-BKI"/>
+                            <constraint firstItem="1cg-hY-M7c" firstAttribute="top" secondItem="f3g-xP-A2u" secondAttribute="bottom" constant="86" id="ddH-iT-Qbc"/>
+                            <constraint firstItem="1cg-hY-M7c" firstAttribute="centerX" secondItem="f3g-xP-A2u" secondAttribute="centerX" id="rgM-k0-d0B"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chineseSection" destination="Scr-JP-chy" id="jaE-Lp-jsv"/>
+                        <outlet property="englishSection" destination="ZnY-JL-Pbx" id="icO-SB-tiB"/>
+                        <outlet property="showChar" destination="f3g-xP-A2u" id="K4d-Bk-CJ5"/>
+                        <outlet property="weightSwitch" destination="1cg-hY-M7c" id="qxr-5Y-Vnl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="344" y="359"/>
+        </scene>
+    </scenes>
+</document>

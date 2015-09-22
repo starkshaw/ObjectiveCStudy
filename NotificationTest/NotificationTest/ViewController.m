@@ -30,9 +30,9 @@
     if (notification!=nil) {
         NSLog(@">> support local notification");
         NSDate *now=[NSDate new];
-        notification.fireDate=[now dateByAddingTimeInterval:10];
+        notification.fireDate=[now dateByAddingTimeInterval:5];
         notification.timeZone=[NSTimeZone defaultTimeZone];
-        NSLog(@"Notification scheduled. It will pop out after 10 seconds when the app quits.");
+        NSLog(@"Notification scheduled. It will pop out after 5 seconds when the app quits.");
         notification.alertBody=@"“They hate us because they ain’t us.”\nThe Interview";
         [[UIApplication sharedApplication]   scheduleLocalNotification:notification];
     }
