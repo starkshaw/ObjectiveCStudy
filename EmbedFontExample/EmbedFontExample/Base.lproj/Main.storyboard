@@ -67,7 +67,7 @@
                                     <constraint firstAttribute="width" constant="274" id="NVm-Lb-Czb"/>
                                     <constraint firstAttribute="height" constant="21" id="uRb-mJ-tTp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -78,7 +78,7 @@
                                     <constraint firstAttribute="height" constant="28" id="JuY-1U-KXH"/>
                                     <constraint firstAttribute="width" constant="360" id="P8e-te-p4N"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="NotoSansCJKsc-Thin" family="Noto Sans CJK SC" pointSize="19"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

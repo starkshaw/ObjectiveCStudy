@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+pod 'Firebase', '>= 2.4.1'
+target 'FirebaseExample' do
+
+end
+
+target 'FirebaseExampleTests' do
+
+end
+
+target 'FirebaseExampleUITests' do
+
+end
+

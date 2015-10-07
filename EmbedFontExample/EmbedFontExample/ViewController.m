@@ -28,13 +28,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _weight = 1;
-    _NotoSansCJKscThin = [UIFont fontWithName:@"NotoSansCJKsc-Thin" size:17.0f];
-    _NotoSansCJKscLight = [UIFont fontWithName:@"NotoSansCJKsc-Light" size:17.0f];
-    _NotoSansCJKscDemiLight = [UIFont fontWithName:@"NotoSansCJKsc-DemiLight" size:17.0f];
-    _NotoSansCJKscRegular = [UIFont fontWithName:@"NotoSansCJKsc-Regular" size:17.0f];
-    _NotoSansCJKscMedium = [UIFont fontWithName:@"NotoSansCJKsc-Medium" size:17.0f];
-    _NotoSansCJKscBold = [UIFont fontWithName:@"NotoSansCJKsc-Bold" size:17.0f];
-    _NotoSansCJKscBlack = [UIFont fontWithName:@"NotoSansCJKsc-Black" size:17.0f];
+    _NotoSansCJKscThin = [UIFont fontWithName:@"NotoSansCJKsc-Thin" size:19.0f];
+    _NotoSansCJKscLight = [UIFont fontWithName:@"NotoSansCJKsc-Light" size:19.0f];
+    _NotoSansCJKscDemiLight = [UIFont fontWithName:@"NotoSansCJKsc-DemiLight" size:19.0f];
+    _NotoSansCJKscRegular = [UIFont fontWithName:@"NotoSansCJKsc-Regular" size:19.0f];
+    _NotoSansCJKscMedium = [UIFont fontWithName:@"NotoSansCJKsc-Medium" size:19.0f];
+    _NotoSansCJKscBold = [UIFont fontWithName:@"NotoSansCJKsc-Bold" size:19.0f];
+    _NotoSansCJKscBlack = [UIFont fontWithName:@"NotoSansCJKsc-Black" size:19.0f];
 }
 - (IBAction)switchFont:(UIButton *)sender {
     _weight++;
