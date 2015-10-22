@@ -57,6 +57,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
     return;
 }
+
 - (IBAction)checkEmailFieldOnReg:(id)sender {
     if ([self.emailFieldForReg.text length] > 0 ){
         if ([self.pwdFieldForReg.text isEqualToString:self.pwdAgainFieldForReg.text] && [self.pwdFieldForReg.text length] >= 6) {

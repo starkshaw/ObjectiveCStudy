@@ -1,2 +1,6 @@
 language: objective-c
 osx_image: xcode7
+xcode_workspace: "./OAuth Example/OAuth Example.xcworkspace"
+xcode_project: "./NotificationTest/NotificationTest.xcodeproj"
+notifications:
+  email: false
